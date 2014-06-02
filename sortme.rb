@@ -3,7 +3,7 @@
 # input: names - unsorted array
 # output: sorted array
 def sortme( names )
-	names.sort { |x,y| y <=> x}
+	names.sort
 end
 
 puts sortme( ["sarah", "andy", "ross"])
