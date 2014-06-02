@@ -5,3 +5,5 @@
 def sortme( names )
 	names.sort { |x,y| y <=> x}
 end
+
+puts sortme( ["sarah", "andy", "ross"])
