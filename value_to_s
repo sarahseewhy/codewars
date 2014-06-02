@@ -1,0 +1,3 @@
+def solution(value)
+	puts "Value is #{value.to_s}"
+end
